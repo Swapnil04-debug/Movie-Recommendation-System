@@ -27,6 +27,7 @@ This is a simple and interactive movie recommendation web application built usin
 
 ## 📁 Project Structure
 movie-recommender/
+
 ├── static/
 
 ├── templates/
@@ -66,3 +67,13 @@ movie-recommender/
    ```bash
    git clone https://github.com/yourusername/movie-recommender.git
    cd movie-recommender
+2.***Install dependencies:*
+   pip install flask pandas scikit-learn requests
+   
+3.**Add your movies.csv file** .   
+
+4.**Run the app**:
+   python app.
+
+5.**🔑 API Key Setup**:
+   api_key = 'your_api_key_here'
