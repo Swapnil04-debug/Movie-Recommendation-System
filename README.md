@@ -28,10 +28,15 @@ This is a simple and interactive movie recommendation web application built usin
 ## 📁 Project Structure
 movie-recommender/
 ├── static/
+
 ├── templates/
+
 │ └── index.html
+
 ├── app.py
+
 ├── movies.csv
+
 └── README.md
 
 
