@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load movie data
 import os
-data = pd.read_csv(os.path.join(os.path.dirname(__file__), 'Copy of Copy of movies.csv'))
+data = pd.read_csv(os.path.join(os.path.dirname(__file__), 'movies.csv'))
 
 # Fill missing values and create combined features
 features = ['genres', 'keywords', 'tagline', 'cast', 'overview']
